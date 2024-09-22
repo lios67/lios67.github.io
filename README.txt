@@ -2,35 +2,9 @@ CHECK OUT THE PAGE AT: https://lios67.github.io
 
 
 
-
-Solid State by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-
-
-After a somewhat extended break from HTML5 UP (to work on a secret-ish new project --
-more on that later!) I'm back with a brand new design: Solid State, a slick new multi-
-pager that combines some of the ideas I've played with over at Pixelarity with an "angular"
-sort of look. Hope you dig it :)
-
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
-
-(* = not included)
-
-AJ
-aj@lkn.io | @ajlkn
+I have developed a personal portfolio website that showcases my skills, projects, and experiences in software development. 
+The website is designed with a clean, modern aesthetic and built using HTML, CSS, JavaScript and Bootstrap, with a responsive layout to ensure a seamless experience across devices. 
+It features an easy-to-navigate interface that highlights my most notable projects, including descriptions, technologies used, and links to the live demos or GitHub repositories.
+My portfolio website serves as a digital resume, providing potential employers or collaborators with a comprehensive view of my technical expertise and passion for problem-solving.
 
 
-Credits:
-
-	Demo Images:
-		Unsplash (unsplash.com)
-
-	Icons:
-		Font Awesome (fontawesome.io)
-
-	Other:
-		jQuery (jquery.com)
-		Scrollex (github.com/ajlkn/jquery.scrollex)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
