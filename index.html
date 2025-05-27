@@ -10,9 +10,12 @@
         <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
+        <!-- Google fonts
         <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" /> -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
         <!-- Helpful Links
@@ -26,8 +29,8 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-bar fixed-top" id="sideNav">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
-                <span class="d-block d-lg-none">Oscar Lin</span>
-                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/proflie4.png" alt="..." /></span>
+                <span class="d-block d-lg-none text-accent">Oscar Lin</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/proflie5.png" alt="..." /></span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -48,7 +51,7 @@
                 <div class="container d-flex align-items-center flex-column">
                     <!-- Masthead Avatar Image-->
                     <a href="Oscar Lin_Resume.pdf" download="Oscar Lin_Resume">
-                        <img class="resume-section-avatar rounded-circle mx-auto mb-5" src="assets/img/proflie4.png" alt="..." />
+                        <img class="resume-section-avatar rounded-circle mx-auto mb-5" src="assets/img/proflie5.png" alt="..." />
                     </a>
                     <!-- Masthead Heading-->
                     <h1 class="resume-section-heading text-uppercase text-primary mb-0">
@@ -62,7 +65,7 @@
                         <div class="divider-custom-line"></div>
                     </div>
                     <!-- Masthead Subheading-->
-                    <p class="resume-section-subheading text-accent font-weight-light mb-0">Software Engineer</p>
+                    <p class="resume-section-subheading text-accent font-weight-light mb-0">Full-Stack Developer</p>
                 </div>
             </section>
             <hr class="m-0" />
@@ -215,6 +218,21 @@
                                         <div class="projects-hover">
                                             <div class="projects-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                         </div>
+                                        <img class="img-fluid" src="assets/img/Splice_Snapshot.png" alt="..." />
+                                    </a>
+                                    <div class="projects-caption bg-secondary">
+                                        <div class="projects-caption-heading">Splice_Snapshot</div>
+                                        <div class="projects-caption-subheading text-accent">Language: Dart</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Projects item 2-->
+                            <div class="col-lg-4 col-sm-6 mb-4">
+                                <div class="projects-item">
+                                    <a class="projects-link" data-bs-toggle="modal" href="#projectsModal2">
+                                        <div class="projects-hover">
+                                            <div class="projects-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                        </div>
                                         <img class="img-fluid" src="assets/img/Github-exp.png" alt="..." />
                                     </a>
                                     <div class="projects-caption bg-secondary">
@@ -223,10 +241,10 @@
                                     </div>
                                 </div>
                             </div>  
-                            <!-- Projects item 2-->
+                            <!-- Projects item 3-->
                             <div class="col-lg-4 col-sm-6 mb-4">
                                 <div class="projects-item">
-                                    <a class="projects-link" data-bs-toggle="modal" href="#projectsModal2">
+                                    <a class="projects-link" data-bs-toggle="modal" href="#projectsModal3">
                                         <div class="projects-hover">
                                             <div class="projects-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                         </div>
@@ -238,10 +256,10 @@
                                     </div>
                                 </div>
                             </div>       
-                            <!-- Projects item 3-->
+                            <!-- Projects item 4-->
                             <div class="col-lg-4 col-sm-6 mb-4">
                                 <div class="projects-item">
-                                    <a class="projects-link" data-bs-toggle="modal" href="#projectsModal3">
+                                    <a class="projects-link" data-bs-toggle="modal" href="#projectsModal4">
                                         <div class="projects-hover">
                                             <div class="projects-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                         </div>
@@ -261,35 +279,42 @@
             <!-- Projects item 1 modal popup-->
             <div class="projects-modal modal fade text-primary" id="projectsModal1" tabindex="-1" role="dialog" aria-hidden="true">
                 <div class="modal-dialog">
-                    <div class="modal-content bg-secondary">
+                    <div class="modal-content bg-surface">
                         <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <div class="modal-body">
                                         <!-- Project details-->
-                                        <h2 class="text-uppercase">GitHub-Explorer</h2>
-                                        <a class="site-link" href="https://lios67.github.io/GitHub-Explorer/">
+                                        <h2 class="text-uppercase text-primary">GitHub-Explorer</h2>
+                                        <a class="site-link" href="https://github.com/lios67/splice_snapshot">
                                             <div class="site-link-hover">
                                                 <div class="site-link-hover-content"><i class="fa-solid fa-arrow-up-right-from-square fa-5x"></i></i></div>
                                             </div>
-                                            <img class="img-fluid d-block mx-auto" src="assets/img/Github-exp.png" alt="..." />
+                                            <img class="img-fluid d-block mx-auto" src="assets/img/Splice_Snapshot.png" alt="..." />
                                         </a>
-                                        <p>The GitHub Explorer is a user-friendly web application that allows users to search and explore GitHub repositories and commits. It provides an intuitive interface with scrollable boxes to display repositories and their associated commits.</p>
+                                        <p>Splice_Snapshot is a simple tool to extract frames from video files and export them as a ZIP of png image files.</p>
                                         <ul class="extra">
-                                            <li>Repository Search</li>
-											<li>Commit Display</li>
-											<li>User/Organization Switch</li>
+                                            <li>Set the extraction interval (e.g., "1", "0.4", etc.) of the frames</li>
+											<li>Browse frames with arrow keys or scroll wheel.</li>
+											<li>Delete any fames that are not needed.</li>
+                                            <li>Downloadable on both Windows and linux</li>
                                         </ul>
-                                        <ul class="list-inline">
+                                        <ul class="list-inline text-accent">
                                             <li>
                                                 <strong>Language:</strong>
-                                                React Js
+                                                Dart
                                             </li>
                                         </ul>
-                                        <a href="https://github.com/lios67/GitHub-Explorer">
-                                            <button class="btn btn-primary btn-xl bg-accent text-white text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <a href="https://github.com/lios67/splice_snapshot">
+                                            <button class="btn btn-primary btn-xl bg-accent text-uppercase text-secondary" data-bs-dismiss="modal" type="button">
                                                 Source Code
+                                            </button>
+                                        </a>
+                                        <a> </a>
+                                        <a href="https://lios67.github.io/ToolsWeb/tools/vidsever.html">
+                                            <button class="btn btn-secondary btn-xl bg-accent text-uppercase text-secondary" data-bs-dismiss="modal" type="button">
+                                                Web Version
                                             </button>
                                         </a>
                                     </div>
@@ -302,14 +327,55 @@
             <!-- Projects item 2 modal popup-->
             <div class="projects-modal modal fade text-primary" id="projectsModal2" tabindex="-1" role="dialog" aria-hidden="true">
                 <div class="modal-dialog">
-                    <div class="modal-content bg-secondary">
+                    <div class="modal-content bg-surface">
                         <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <div class="modal-body">
                                         <!-- Project details-->
-                                        <h2 class="text-uppercase">WaterTracker App</h2>
+                                        <h2 class="text-uppercase text-primary">GitHub-Explorer</h2>
+                                        <a class="site-link" href="https://lios67.github.io/GitHub-Explorer/">
+                                            <div class="site-link-hover">
+                                                <div class="site-link-hover-content"><i class="fa-solid fa-arrow-up-right-from-square fa-5x"></i></i></div>
+                                            </div>
+                                            <img class="img-fluid d-block mx-auto" src="assets/img/Github-exp.png" alt="..." />
+                                        </a>
+                                        <p>The GitHub Explorer is a user-friendly web application that allows users to search and explore GitHub repositories and commits. It provides an intuitive interface with scrollable boxes to display repositories and their associated commits.</p>
+                                        <ul class="extra">
+                                            <li>Repository Search</li>
+											<li>Commit Display</li>
+											<li>User/Organization Switch</li>
+                                        </ul>
+                                        <ul class="list-inline text-accent">
+                                            <li>
+                                                <strong>Language:</strong>
+                                                React Js
+                                            </li>
+                                        </ul>
+                                        <a href="https://github.com/lios67/GitHub-Explorer">
+                                            <button class="btn btn-primary btn-xl bg-accent text-uppercase text-secondary" data-bs-dismiss="modal" type="button">
+                                                Source Code
+                                            </button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <!-- Projects item 3 modal popup-->
+            <div class="projects-modal modal fade text-primary" id="projectsModal3" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content bg-surface">
+                        <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <div class="modal-body">
+                                        <!-- Project details-->
+                                        <h2 class="text-uppercase text-primary">WaterTracker App</h2>
                                         <img class="img-fluid d-block mx-auto" src="assets/img/WaterTrackerV1.png" alt="..." />
                                         <p>A iPhone mobile application that enables users to track their daily water intake and receive reminders to drink water throughout the day. This project required me to design the user interface, implement the backend, and ensure the data storage and retrieval functioned correctly.</p>
                                         <ul class="extra">
@@ -319,14 +385,14 @@
                                             <li>Checks if the User input is a number.</li>
                                             <li>Implmenting a Reminder function to drink water.</li>
                                         </ul>
-                                        <ul class="list-inline">
+                                        <ul class="list-inline text-accent">
                                             <li>
                                                 <strong>Language:</strong>
                                                 Swift
                                             </li>
                                         </ul>
                                         <a href="https://github.com/lios67/WaterTracker">
-                                            <button class="btn btn-primary btn-xl bg-accent text-white text-uppercase" data-bs-dismiss="modal" type="button">
+                                            <button class="btn btn-primary btn-xl bg-accent text-secondary text-uppercase" data-bs-dismiss="modal" type="button">
                                                 Source Code
                                             </button>
                                         </a>
@@ -337,17 +403,17 @@
                     </div>
                 </div>
             </div>
-            <!-- Projects item 3 modal popup-->
-            <div class="projects-modal modal fade text-primary" id="projectsModal3" tabindex="-1" role="dialog" aria-hidden="true">
+            <!-- Projects item 4 modal popup-->
+            <div class="projects-modal modal fade text-primary" id="projectsModal4" tabindex="-1" role="dialog" aria-hidden="true">
                 <div class="modal-dialog">
-                    <div class="modal-content bg-secondary">
+                    <div class="modal-content bg-surface">
                         <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <div class="modal-body">
                                         <!-- Project details-->
-                                        <h2 class="text-uppercase">Caesar-Cipher</h2>
+                                        <h2 class="text-uppercase text-primary">Caesar-Cipher</h2>
                                         <a class="site-link" href="https://lios67.github.io/Caesar-Cipher/">
                                             <div class="site-link-hover">
                                                 <div class="site-link-hover-content"><i class="fa-solid fa-arrow-up-right-from-square fa-5x"></i></i></div>
@@ -355,14 +421,14 @@
                                             <img class="img-fluid d-block mx-auto" src="assets/img/CC.png" alt="..." />
                                         </a>
                                         <p>The Caesar cipher is a type of substitution cipher in which each letter will be shifted by a certain number of places down the alphabet. This website will be able to let the user to input text in a text box and choose to either encrypt or decrypt from 0<26, and return in all captials.</p>
-                                        <ul class="list-inline">
+                                        <ul class="list-inline text-accent">
                                             <li>
                                                 <strong>Language:</strong>
                                                 HTML, CSS, JavaScript
                                             </li>
                                         </ul>
                                         <a href="https://github.com/lios67/Caesar-Cipher">
-                                            <button class="btn btn-primary btn-xl bg-accent text-white text-uppercase" data-bs-dismiss="modal" type="button">
+                                            <button class="btn btn-primary btn-xl bg-accent text-secondary text-uppercase" data-bs-dismiss="modal" type="button">
                                                 Source Code
                                             </button>
                                         </a>
